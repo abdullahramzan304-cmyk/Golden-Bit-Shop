@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Golden Bit Shop</title><link rel="stylesheet" href="style.css"></head><body>
+<div class="app"><header><img src="assets/logo.png" class="logo"><div><h1>Golden Bit Shop</h1><small>TRADE • INVEST • EARN</small></div><button class="profile">👤</button></header>
+<main>
+<section class="hero"><div><span class="muted">Available Balance</span><h2 id="balance">$10,000.00</h2></div><button class="add">+ Add Funds</button></section>
+<nav><button class="tab active" data-market="crypto">Crypto</button><button class="tab" data-market="forex">Forex</button></nav>
+<section class="cards" id="markets"></section>
+<section class="trade"><div class="tradeHead"><h3>Quick Trade</h3><span id="selected">BTC/USD</span></div><div class="buySell"><button id="buy" class="activeBuy">BUY</button><button id="sell">SELL</button></div><label>Amount (USD)</label><input id="amount" type="number" min="1" value="100"><button id="tradeBtn" class="tradeBtn">BUY BTC/USD</button><p id="msg" class="msg"></p></section>
+<section class="history"><h3>Recent Trades</h3><div id="history"><p class="muted">No trades yet.</p></div></section>
+</main><footer><span>⌂ Home</span><span>📈 Markets</span><span>💼 Wallet</span><span>⚙ Settings</span></footer></div><script src="app.js"></script></body></html>
